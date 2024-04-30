@@ -1,8 +1,10 @@
 const express = require('express') ;
+const cors = require('cors')
 const dns = require('dns') ;
 
 const app = express() ;
 app.use(express.json())
+app.use(cors())
 
 app.post('/ipv4',(req,res)=>{
     const website_domain = req.body.domain ;
