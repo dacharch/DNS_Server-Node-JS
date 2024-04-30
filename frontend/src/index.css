@@ -30,6 +30,7 @@
   outline: none;
   border-radius: 10px;
   margin-bottom: 10px;
+  
 }
 .ipInput:focus{
   border: 2px solid rgb(16, 107, 143);
@@ -61,4 +62,7 @@ button:hover{
   margin-top: 10px;
   height: 50px;
   padding:10px ;
+}
+.radio_check{
+  cursor: pointer;
 }
